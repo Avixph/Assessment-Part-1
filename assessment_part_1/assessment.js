@@ -26,7 +26,13 @@
 
 // 7. What is the difference between Props and State?
 // The differences between Props and State are vast.
-//
+// First state is data that is maintained inside a component. 
+// It can either be local or owned by that specific component.
+// The component will then update the state using setState functionality.Now for props, props is where data is passed from a parent component.
+// Props are only read in the child component.Props can also take callback functions inside the child component to initiate an update.
+// So the difference comes in for the component that owns the data.
+// If the data is owned locally and updated by the component its self then that is State.
+// If the data is updated by a callback function being passed to child or data is owned by a parent component then its Props.
 
 // 8. Examine the code below: In relation to React, explain what is occurring, and why it’s significant.
 
